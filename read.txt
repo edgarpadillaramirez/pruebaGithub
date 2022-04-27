@@ -1,4 +1,4 @@
-Fecha: 21/04/2022
+Fecha: 26/04/2022
 
 Comandos iniciales para utilizar Git
 
@@ -13,6 +13,10 @@ git log --oneline - lista los respaldos generados.
 git reset --hard (código de la versión a restaurar).
 
 git remote add origin "dirección del repositorio en github"
+
+git remote -v - permite ver los repositorios registrados.
+git remote add "alias" "dirección del repositorio" - permite registrar la dirección de un repositorio en un alias que sirve como identificador.
+git push "alias" master - permite enviar la versión al repositorio en el servidor.
 
 # Agregando un cambio
 # Agregando un cambio 
