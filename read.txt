@@ -4,6 +4,7 @@ Comandos iniciales para utilizar Git
 
 git init - iniciar el versionamiento.
 git add - dar seguimiento al o a los archivos, llevandolos al área de ensayo de forma interna.
+git add . - agregar todos los archivos al área de trabajo
 git commit -m "descripción" - trasladar del área de ensayo al repositorio local para hacer el respaldo de la situación actual de los archivos en ese momento.
 
 git status -s - nos muestra el estado actual de los archivos para identificar el seguimiento.
